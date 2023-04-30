@@ -267,8 +267,8 @@ namespace MySql.Data.MySqlClient
         buffer[offset + 2] = (byte)((lenToSend >> 16) & 0xff);
         buffer[offset + 3] = sequenceByte++;
 
-        if (Socket != null && Socket.Available > 0)
-          await ReadPacketAsync(execAsync).ConfigureAwait(false);
+        //if (Socket != null && Socket.Available > 0)
+        //  await ReadPacketAsync(execAsync).ConfigureAwait(false);
 
         if (execAsync)
         {

@@ -5,11 +5,14 @@
     <Description>MySql.Data.MySqlClient .Net Core Class Library</Description>
     <Copyright>Copyright (c) 2016, 2023, Oracle and/or its affiliates.</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryUrl>https://github.com/SanwaPrintings/root/</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>8.0.33</Version>
+    <Description>Changed to work on google cloud run.</Description>
     <Authors>Oracle</Authors>
     <AssemblyName>MySql.Data</AssemblyName>
     <TargetFrameworks>net462;net48;netstandard2.0;netstandard2.1;net6.0;net7.0;</TargetFrameworks>
-    <PackageId>MySql.Data</PackageId>
+    <PackageId>Shared.MySql.Data</PackageId>
     <PackageTags>MySql;.NET Connector;MySql Connector/NET;netcore;.Net Core;MySql Conector/Net Core;coreclr;C/NET;C/Net Core</PackageTags>
     <PackageReleaseNotes>Review ReleaseNotes.txt for details.</PackageReleaseNotes>
     <PackageIcon>logo-mysql-170x115.png</PackageIcon>
